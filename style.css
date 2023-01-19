@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    /* border: 1px solid red; */
+    width: 85vw;
+    /* height: 75vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+    margin: 2rem auto;
+    padding: 1rem;
+    flex-wrap: wrap;
+    background-color: rgba(250, 235, 215, 0.253);
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .head h1 {
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .int-btn {
+    display: flex;
+  }
+  
+  #input {
+    width: 50vw;
+    padding: 0.8rem;
+    border: 1px solid rgb(221, 15, 221);
+    font-size: 1.2rem;
+    height: 3.7rem;
+    outline: none;
+    color: rgba(221, 15, 221, 0.671);
+  }
+  
+  #btn {
+    width: 6rem;
+    height: 3.7rem;
+    background-color: rgb(221, 15, 221);
+    border: none;
+    color: white;
+    font-size: 2rem;
+  }
+  
+  #btn:hover {
+    cursor: pointer;
+  }
+  
+  .div-list {
+    /* border: 1px solid blue; */
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 1rem;
+    margin: 1rem auto;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 1.2rem;
+  }
+  
+  ul {
+    width: 100%;
+  }
+  
+  li {
+    border: 1px solid darkred;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.7rem 0.7rem 0.7rem 0.2rem;
+  }
+  
+  
+  .fas,
+  .fa-solid {
+    font-size: 1.2rem;
+    padding: 0.3rem;
+    border: none;
+    background-color: rgba(250, 235, 215, 0.05);
+    color: brown;
+  }
+  
+  .fas:hover,
+  .fa-solid:hover {
+    cursor: pointer;
+  }
+  
+  .fa-check {
+    color: red;
+  }
+  
+  /* tıklandiginda eklenecek class */
+  
+  li.checked .fa-check {
+    color: #00e676;
+  }
+  
+  li.checked p {
+    color: rgb(41, 41, 41);
+    text-decoration: line-through;
+    font-weight: normal;
+  }
+  
+  /* FOOTER */
+  
+  #dots {
+    color: rgb(229, 18, 18);
+  }
+  
+  #hakan {
+    font-style: italic;
+    color: darkred;
+  }
+  
